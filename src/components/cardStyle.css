@@ -1,0 +1,63 @@
+.cardContainer{
+    width:18vw;
+    box-shadow: 0px 4px 4px 0px rgb(0,0,0,0.2);  
+    margin-left: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;  
+}
+.headerDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.headerSubDiv{
+    display: flex;
+}
+.titleDiv{
+    margin-left: 1vw;
+    font-size: 1.1vw;
+    font-weight: 700;
+}
+.deleteIcon{
+    cursor: pointer;
+}
+.iconDiv{
+    display: flex;
+}
+.EditIcon{
+    cursor: pointer;
+}
+
+
+
+
+
+input[type=checkbox] {
+    position: relative;
+      cursor: pointer;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    border: 2px solid #555555;
+    border-radius: 3px;
+    background-color: white;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
